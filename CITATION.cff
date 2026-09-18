@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "The three-shift radical problem has no solution: an elementary obstruction"
+abstract: >-
+  We prove that there are no distinct positive integers x and y whose prime-divisor
+  sets agree simultaneously at the shifts 0, 1 and 2. The first and third conditions
+  are already contradictory: rad(x) = rad(x+2) is impossible, because x and x+2 have
+  coprime odd parts. This answers the three-shift question recorded as Erdos problem
+  #850 and as JSP-000703 in the negative.
+message: "If you use this result, please cite the repository URL and the commit SHA you used."
+type: software
+authors:
+  - alias: firesh
+    name: "firesh"
+repository-artifact: "https://github.com/firesh/jsp-000703-three-shift-radical-obstruction"
+license: MIT
+date-released: "2026-09-18"
+references:
+  - type: misc
+    title: "Erdos Problem #850"
+    url: "https://www.erdosproblems.com/850"
+  - type: misc
+    title: "The Justin Sun Prize problem bank: JSP-000703"
+    url: "https://github.com/TheJustinSunPrize/awards/blob/main/problems/catalog-0701-0800.md#JSP-000703"
